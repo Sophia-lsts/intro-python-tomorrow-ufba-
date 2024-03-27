@@ -1,0 +1,116 @@
+# Questão 1 - Escreva comentários descrevendo o que o código abaixo faz:
+nome = 'John Doe'
+idade = 25
+cidade = 'New York'
+
+-> Esse código recebe entrada de dados de nome, idade e cidade
+
+# Questão 2 - Crie variáveis com nomes descritivos dos seguintes valores
+1 Nome
+2 Idade
+3 Altura
+4 Cidade
+
+-> nome = "Sophia"
+idade = 17
+altura = 1.63
+cidade = "Salvador"
+
+# Questão 3 - Utilize os comandos type() e isinstance() para verificar os tipos de dados das variáveis anteriores
+
+-> type((nome))
+isinstance(nome,str)
+
+type((idade))
+isinstance(idade,int)
+
+type((altura))
+isinstance(altura,float)
+
+type((cidade))
+isinstance(cidade,str)
+
+# Questão 4 - Utilize a função print() para exibir as seguintes mensagens
+
+Olá, {nome}!
+Você tem {idade} anos.
+Sua altura é {altura}.
+Você mora em {cidade}.
+
+-> # primeira
+print("Olá,", nome)
+#segunda
+print("Você tem", idade, "anos")
+#terceira
+print("Sua altura é", altura)
+#quarta
+print("Você mora em", cidade)
+
+# Questão 5 - Faça um programa que leia um número Inteiro e mostre na tela o seu sucessor e seu antecessor
+
+-> número = int(input("Digite um número inteiro: "))
+print(número - 1)
+print(número + 1)
+
+# Questão 6 - Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada
+
+número = int(input("Digite seu número: "))
+print(número * 2)
+print(número * 3)
+print(número ** (1/2))
+
+# Questão 7 - Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta pinta uma área de 2 metros quadrados.
+
+largura = float(input("Digite a largura: "))
+altura1 = float(input("Digite a altura: "))
+área = largura * altura1
+qtinta = área / 2
+print(qtinta, "litros")
+
+# Questão 8  - Crie uma calculadora diferente para cada uma das operações básicas. Ela deve ler os valores dos números A e B e imprimir o resultado da operação.
+
+#calculadora de soma
+n1 = int(input("Digite o seu primero número: "))
+n2 = int(input("Digite o seu segundo número: "))
+print("Sua soma é", n1 + n2)
+
+#calculadora de subtração
+n1 = int(input("Digite o seu primero número: "))
+n2 = int(input("Digite o seu segundo número: "))
+print("Sua subtração é", n1 - n2)
+
+#calculadora de multiplicação
+n1 = int(input("Digite o seu primero número: "))
+n2 = int(input("Digite o seu segundo número: "))
+print("O resultado de sua multiplicação é:", n1 * n2)
+
+#calculadora de divisão
+n1 = int(input("Digite o seu primero número: "))
+n2 = int(input("Digite o seu segundo número: "))
+print("O resultado de sua divisão é:", n1 / n2)
+
+# Questão 9 Escreva uma expressão para determinar se uma pessoa deve ou não pagar imposto. Considere que pagam imposto pessoas cujo salário é maior que R$ 1.200,00. Seu programa apenas deve retornar True ou False.
+
+salário = float(input("Digite seu salário:"))
+logicot = True
+logicof = False
+
+if (salário > 1200):
+    print(logicot)
+else:
+    print(logicof)
+
+# Questão 10 Calcule o resultado da expressão ((A > B) and C or D), utilizando os valores da tabela a seguir.
+
+
+A = 1
+B = 2
+C = True
+D = False
+expressão = ((A > B) and C or D)
+print(expressão)
+
+
+
+
+
